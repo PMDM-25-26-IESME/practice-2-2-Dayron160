@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
 
 @Preview(showBackground = true)
 @Composable
-fun TipTimeLayoutPreview() {
+fun VATCalculatorAppLayoutPreview() {
     VAT_Calculator_AppTheme {
         Surface(modifier = Modifier.fillMaxSize(),
         ) {
