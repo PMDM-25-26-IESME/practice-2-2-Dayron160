@@ -38,7 +38,6 @@ class VatViewModel : ViewModel() {
 
         val vat = vatPercent / 100 * amount + amount
         val formattedVat = NumberFormat.getCurrencyInstance().format(vat)
-
         _uiState.update { currentState ->
             currentState.copy(vat = formattedVat)
         }

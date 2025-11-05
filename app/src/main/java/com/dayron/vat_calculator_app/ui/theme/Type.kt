@@ -22,7 +22,7 @@ val Typography = Typography(
     displayLarge = TextStyle(
         fontFamily = BBHSans,
         fontWeight = FontWeight.Normal,
-        fontSize = 36.sp
+        fontSize = 30.sp
     ),
     displayMedium = TextStyle(
         fontFamily = Nunitosans,
